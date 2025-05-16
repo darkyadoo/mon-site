@@ -11,7 +11,7 @@ body {
     left: 0;
     width: 220px;
     height: 100vh;
-    background-color: #cce3de; /* vert pastel */
+    background-color: rgba(34, 85, 34, 0.1); /* vert pastel */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -35,7 +35,7 @@ body {
   }
   
   nav a:hover {
-    background-color: #ddeedf;
+    background-color: rgba(34, 85, 34, 0.2);
   }
   
   .main-content {
@@ -45,7 +45,7 @@ body {
     min-height: 100vh;
   }
   .definition-box {
-    background-color: #e0f7fa; /* bleu pastel */
+    background-color: rgba(34, 85, 34, 0.1);
     border-left: 5px solid #00796b;
     padding: 1rem;
     margin: 2rem 0;
@@ -58,4 +58,18 @@ body {
     margin-bottom: 0.5rem;
     color: #004d40;
   }
-    
+
+  .axiom-box {
+    background-color: rgba(85, 66, 34, 0.1); /* bleu pastel */
+    border-left: 5px solid #795b00;
+    padding: 1rem;
+    margin: 2rem 0;
+    border-radius: 8px;
+    font-size: 1.1rem;
+  }
+  
+  .axiom-box strong {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #6d5311;
+  }
