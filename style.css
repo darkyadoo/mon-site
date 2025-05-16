@@ -73,3 +73,7 @@ body {
     margin-bottom: 0.5rem;
     color: #6d5311;
   }
+  .centered-image {
+    display: block;
+    margin: 0 auto;
+  }
